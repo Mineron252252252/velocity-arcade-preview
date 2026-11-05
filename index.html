@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#080a13" />
   <title>VELOCITY — выбор заезда</title>
-  <link rel="stylesheet" href="styles.css?v=side-gap-100" />
+  <link rel="stylesheet" href="styles.css?v=video-backdrop-2" />
 </head>
 <body>
+  <div class="scene-backdrop is-fallback" id="sceneBackdrop" aria-hidden="true"><div class="scene-image" id="sceneImage"></div><video class="scene-video" id="sceneVideo" muted loop playsinline preload="none"></video><div class="scene-shade"></div></div>
   <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
   <main class="cabinet" aria-label="Выбор гоночной игры">
     <header class="topbar">
@@ -32,6 +33,6 @@
     <footer><span>PRESS START WHEN YOU’RE READY</span><span>© VELOCITY ARCADE <b>●</b> FREE PLAY</span></footer>
   </main>
   <div class="toast" id="toast" role="status">ЗАПУСК ИГРЫ СКОРО БУДЕТ ДОСТУПЕН</div>
-  <script src="app.js?v=side-gap-100"></script>
+  <script src="app.js?v=video-backdrop-2"></script>
 </body>
 </html>

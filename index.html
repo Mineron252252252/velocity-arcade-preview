@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#080a13" />
+  <title>VELOCITY — выбор заезда</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <main class="cabinet" aria-label="Выбор гоночной игры">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="Velocity"><span class="brand-mark">V</span><span>VELOCITY<small>ARCADE RACING</small></span></a>
+      <div class="status"><i></i> СИСТЕМА ГОТОВА</div>
+      <div class="top-meta"><span>SELECT YOUR RIDE</span><b>01 <em>/</em> 04</b></div>
+    </header>
+
+    <section class="showcase">
+      <div class="eyebrow"><span class="eyebrow-line"></span> ВЫБЕРИ СВОЙ ЗАЕЗД <span class="eyebrow-line"></span></div>
+      <div class="track" id="track" aria-live="polite"></div>
+      <div class="selection">
+        <div class="selection-copy"><div class="game-kicker" id="gameKicker"></div><h1 id="gameTitle"></h1><p id="gameDesc"></p></div>
+        <button class="play-button" id="playButton"><span>ИГРАТЬ</span><b>↗</b></button>
+      </div>
+      <div class="controls">
+        <button class="arrow" id="prev" aria-label="Предыдущая игра">←</button>
+        <div class="dots" id="dots"></div>
+        <button class="arrow" id="next" aria-label="Следующая игра">→</button>
+        <span class="keys-hint">ИСПОЛЬЗУЙТЕ <kbd>←</kbd><kbd>→</kbd> ИЛИ МЫШЬ</span>
+      </div>
+    </section>
+    <footer><span>PRESS START WHEN YOU’RE READY</span><span>© VELOCITY ARCADE <b>●</b> FREE PLAY</span></footer>
+  </main>
+  <div class="toast" id="toast" role="status">ЗАПУСК ИГРЫ СКОРО БУДЕТ ДОСТУПЕН</div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 const games=[
  {title:'Project CARS',short:'PROJECT CARS',kicker:'ПРОФЕССИОНАЛЬНЫЙ АВТОСПОРТ',desc:'Почувствуй скорость большой гоночной трассы.',genre:'TRACK RACING',tone:'#eaff00',top:'#403b19',bottom:'#11131d',image:'./assets/project-cars-card.jpg',car:'lime',track:'01'},
- {title:'City Car Driving',short:'CITY CAR\nDRIVING',kicker:'ГОРОДСКОЕ ВОЖДЕНИЕ',desc:'Свободная дорога. Твой город. Твои правила.',genre:'CITY DRIVE',tone:'#44e8ff',top:'#12313d',bottom:'#10131d',car:'cyan',track:'02'},
+ {title:'City Car Driving',short:'CITY CAR\nDRIVING',kicker:'ГОРОДСКОЕ ВОЖДЕНИЕ',desc:'Свободная дорога. Твой город. Твои правила.',genre:'CITY DRIVE',tone:'#44e8ff',frameHot:'#129cff',frameCool:'#ff9a16',top:'#12313d',bottom:'#10131d',image:'./assets/city-car-driving-card.png',car:'cyan',track:'02'},
  {title:'CarX Drift Racing',short:'CARX DRIFT\nRACING',kicker:'ДРИФТ И КОНТРОЛЬ',desc:'Лови идеальный угол и оставляй дымный след.',genre:'DRIFT BATTLE',tone:'#ff3d6e',top:'#401a2b',bottom:'#11111c',car:'pink',track:'03'},
  {title:'DiRT Rally 2.0',short:'DIRT RALLY 2.0',kicker:'РААЛИ БЕЗ КОМПРОМИССОВ',desc:'Держи руль крепче. Гравий ошибок не прощает.',genre:'RALLY STAGE',tone:'#ff9a45',frameHot:'#ff5a0a',frameCool:'#ffd84a',top:'#43291b',bottom:'#12131b',image:'./assets/dirt-rally-card.png',car:'orange',track:'04'}
 ];
